@@ -20,12 +20,12 @@ if ENVIRONMENT:
         MUST_JOIN = MUST_JOIN.replace("@", "")
 else:
     # Fill the Values
-    API_ID = ... # api id here
-    OWNER_ID = ...
-    API_HASH = "Hash Here"
-    BOT_TOKEN = "TOKEN here"
-    DATABASE_URL = "Url here"
+    API_ID = 28298365 # api id here
+    OWNER_ID = 5536168611
+    API_HASH = "9647ab7fc03a8a93f701a5528b2f206e"
+    BOT_TOKEN = "7346455769:AAG4S9buEgIlCfwT-Vk80PaODeILZ_hLWlw"
+    DATABASE_URL = "postgres://avnadmin:AVNS_gwvtPgMcQ7IX0qwaCG9@freedb-mayrice01.i.aivencloud.com:14358/defaultdb?sslmode=require"
     DATABASE_URL = DATABASE_URL.replace("postgres", "postgresql")
-    MUST_JOIN = "OldLostFriends" # must join channel link here
+    MUST_JOIN = "AnimeSouls0" # must join channel link here
     if MUST_JOIN.startswith("@"):
         MUST_JOIN = MUST_JOIN[1:]
